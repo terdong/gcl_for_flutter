@@ -3,11 +3,7 @@ import 'package:logger/logger.dart';
 import 'injector/injector.dart';
 
 mixin LoggerProvider {
-  Logger get logger => getIt<Logger>();
-
-  // final logger = Logger(
-  //     printer: PrettyPrinter(
-  //         stackTraceBeginIndex: 4, methodCount: 2, printTime: true));
+  Logger get logger => getItForGcl<Logger>();
 
   /// 동작 여부를 최대한 자세히 살펴볼 목적으로 남기는 로그
   void logv(String message) {

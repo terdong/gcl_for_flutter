@@ -3,11 +3,11 @@ import 'package:injectable/injectable.dart';
 
 import 'injector.config.dart';
 
-final getIt = GetIt.instance;
+final getItForGcl = GetIt.instance;
 
 @InjectableInit(
   initializerName: r'$initGetIt', // default
   preferRelativeImports: true, // default
   asExtension: false, // default
 )
-void configureDependencies() => $initGetIt(getIt);
+void configureDependenciesForGcl() => $initGetIt(getItForGcl);
