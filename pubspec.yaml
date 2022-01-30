@@ -1,6 +1,6 @@
 name: gcl_for_flutter
 description: A Team Gehem Common Library for Flutter.
-version: 0.0.1
+version: 0.0.2
 homepage:
 
 environment:
@@ -10,6 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  fpdart: ^0.0.13
   get_it: ^7.2.0
   injectable: ^1.5.3
   logger: ^1.1.0
