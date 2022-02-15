@@ -1,4 +1,4 @@
-import 'package:gcl_for_flutter/gcl.dart';
+import 'package:gcl_for_flutter/extensions.dart';
 
 void main() {
   String? a = '';
